@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-size: 1.5rem;
   font-family: "Anek Telugu", sans-serif;
 }
+
 html {
   font-size: 62.5%;
 }
+
 /* --------------------NAVBAR---------------------------- */
 .navbar {
   display: flex;
@@ -19,9 +23,11 @@ html {
   border-bottom: 2.5px solid rgb(232, 229, 229);
   font-weight: bolder;
 }
+
 .hamburger {
   display: none;
 }
+
 .right-navbar {
   display: flex;
   align-items: center;
@@ -30,9 +36,11 @@ html {
   letter-spacing: 1px;
   font-size: 14px;
 }
+
 .right {
   margin-left: 2rem;
 }
+
 .right a {
   display: inline-block;
   margin: 0 1rem;
@@ -41,34 +49,42 @@ html {
   text-decoration: none;
   padding: 0.7rem 1.5rem 0.4rem 1.5rem;
 }
+
 .join-now {
   background-color: black;
   color: white;
   transition: all 80ms ease-in-out;
 }
+
 .join-now:hover {
   opacity: 0.7;
 }
+
 .sign-in {
   color: black;
 }
+
 .sign-in:hover {
   background-color: rgb(244, 244, 244);
 }
+
 .find-store a {
   margin: 1rem;
   color: black;
   text-decoration: none;
 }
+
 .find-store a i {
   display: inline-block;
   margin-right: 1rem;
   vertical-align: middle;
   font-size: 2rem;
 }
+
 .find-store :hover {
   color: green;
 }
+
 .left-navbar {
   display: flex;
   justify-content: center;
@@ -79,31 +95,33 @@ html {
   margin: 1rem;
   width: 50px;
 }
+
 .left-navbar a {
   margin: 1.2rem;
   text-decoration: none;
   color: black;
   letter-spacing: 2px;
 }
+
 .left-navbar a:hover {
   color: green;
 }
+
 /* -----------------------MAİN--------------------------- */
 
-.container{
+.container {
   display: grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
   row-gap: 3rem;
   border-bottom: 2.5px solid rgb(232, 229, 229);
-
 }
 
-.container img{
+.container img {
   width: 100%;
 }
 
-.text{
+.text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,14 +129,16 @@ html {
   padding: 0 13%;
   text-align: center;
 }
-.light{
+
+.light {
   background-color: #d4e9e2;
-  color: black;
 }
-.light a{
-   display: inline-block;
+
+.light a {
+  display: inline-block;
   margin: 0 1rem;
   border: 1px solid black;
+  color: black;
   border-radius: 2rem;
   text-decoration: none;
   padding: 0.7rem 1.5rem 0.4rem 1.5rem;
@@ -127,38 +147,38 @@ html {
   font-size: 16px;
   font-weight: bolder;
   letter-spacing: 0.09rem;
-  color: black;
 }
-.light a:hover{
- background-color: rgb(209, 205, 205);
+.light a:hover {
+  background-color: #bbd5cd;
 }
 
-.light p{
+.light p {
   font-size: 2rem;
   font-weight: 500;
-  margin-top:2rem ;
+  margin-top: 2rem;
   padding: 0 1rem;
   letter-spacing: 0.05rem;
 }
-.light h2{
+
+.light h2 {
   letter-spacing: 0.05rem;
   color: #1e3932;
   font-weight: 600;
   font-size: 2.5rem;
 }
 
-.green{
+.green {
   background-color: #006241;
   color: white;
 }
 
-.green p{
+.green p {
   font-size: 2.5rem;
   font-weight: 500;
   letter-spacing: 0.07rem;
 }
 
-.green h1{
+.green h1 {
   font-size: 6rem;
   letter-spacing: 0.4rem;
   padding-bottom: 2rem;
@@ -166,7 +186,7 @@ html {
   line-height: 5rem;
 }
 
-.green a{
+.green a {
   border: 1px solid white;
   border-radius: 2rem;
   text-decoration: none;
@@ -178,50 +198,94 @@ html {
   font-weight: bolder;
   letter-spacing: 0.09rem;
 }
-.green a:hover{
+
+.green a:hover {
   background-color: #257056;
   transition: all 80ms ease-in-out;
 }
 
-/* ---------footer--------- */
+/* ---------------------FOOTER---------------------- */
 
-
-.footer-up{
+.footer-up {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   padding: 3rem;
-  border-bottom: 2.5px solid rgb(230, 223, 223);
+  border-bottom: 2.5px solid rgb(232, 229, 229);
   margin: auto;
-
 }
 
-.footer-ul{
+.footer-ul {
   margin-right: 5rem;
   padding: 0 2%;
-
 }
 
-.footer-ul h3{
+.footer-ul h3 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 3rem;
 }
-.footer-ul li{
-   list-style-type: none;
-}
 
-.footer-ul a{
+.footer-ul li,
+a {
   text-decoration: none;
+  list-style-type: none;
   color: black;
-  margin:2rem 0 ;
+  margin: 2rem 0rem;
   font-size: 17px;
   letter-spacing: 0.05rem;
   opacity: 0.8;
 }
 
-.footer-ul a:hover{
+.footer-ul a:hover {
   opacity: 1;
   font-weight: 600;
 }
+.footer-ul button {
+  display: none;
+}
 
-.footer-ul
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+.footer-icons i {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 0.7rem;
+  border-radius: 2.3rem;
+}
+
+.footer-icons i:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: all 0.4s;
+}
+
+.footer-information {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.footer-information a {
+  padding: 0 2rem;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  border-right: 2px solid black;
+}
+
+.footer-information a:hover {
+  text-decoration: underline;
+}
+
+.footer-end {
+  padding: 0 3rem;
+  opacity: 0.7;
+  margin-bottom: 4rem;
+}
