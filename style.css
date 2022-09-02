@@ -1,34 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-html{
-  font-size: 62.5%;
-}
-
-body{
+body {
   font-size: 1.5rem;
   font-family: "Anek Telugu", sans-serif;
 }
-
-
-.navbar{
+html {
+  font-size: 62.5%;
+}
+/* --------------------NAVBAR---------------------------- */
+.navbar {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  border-bottom: 2px solid rgb(218, 210, 210);
+  border-bottom: 2.5px solid rgb(232, 229, 229);
   font-weight: bolder;
 }
-
-.hamburger{
+.hamburger {
   display: none;
 }
-
-.right-bar{
+.right-navbar {
   display: flex;
   align-items: center;
   margin-right: 5rem;
@@ -36,76 +30,63 @@ body{
   letter-spacing: 1px;
   font-size: 14px;
 }
-
-.right{
+.right {
   margin-left: 2rem;
 }
-
-.right a{
+.right a {
   display: inline-block;
   margin: 0 1rem;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 2rem;
-  padding: 0.7rem 1.5rem 0.4rem 1.5rem;
   text-decoration: none;
+  padding: 0.7rem 1.5rem 0.4rem 1.5rem;
 }
-
-.join-now{
+.join-now {
   background-color: black;
   color: white;
   transition: all 80ms ease-in-out;
 }
-
-.join-now:hover{
+.join-now:hover {
   opacity: 0.7;
 }
-
-.sign-in{
+.sign-in {
   color: black;
 }
-.sign-in:hover{
-  background-color: rgb(242, 242, 242);
+.sign-in:hover {
+  background-color: rgb(244, 244, 244);
 }
-
-.find-store a{
+.find-store a {
   margin: 1rem;
   color: black;
   text-decoration: none;
 }
-.find-store a i{
+.find-store a i {
   display: inline-block;
   margin-right: 1rem;
   vertical-align: middle;
   font-size: 2rem;
 }
-
-.find-store a:hover{
+.find-store :hover {
   color: green;
 }
-
-.left-bar{
+.left-navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
 }
-
-.left-bar img{
+.left-navbar img {
   margin: 1rem;
   width: 50px;
 }
-
-.left-bar a{
+.left-navbar a {
   margin: 1.2rem;
   text-decoration: none;
   color: black;
   letter-spacing: 2px;
 }
-
-.left-bar a:hover{
+.left-navbar a:hover {
   color: green;
 }
-
-
-/* ----------main--------- */
+/* -----------------------MAİN--------------------------- */
 
